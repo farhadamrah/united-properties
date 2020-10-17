@@ -1,0 +1,39 @@
+.quote {
+  background-color: #fff;
+  padding: 30px;
+  color: #a4aeb4;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: 0px 8px 20px rgba(3, 17, 6, 0.03);
+  border-radius: 4px;
+  position: relative;
+  width: 350px;
+}
+
+.quotation-mark {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.author {
+  margin-top: 20px;
+}
+
+.up {
+  position: absolute;
+  left: 280px;
+  bottom: 25px;
+}

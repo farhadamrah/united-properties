@@ -1,0 +1,50 @@
+.field label {
+  color: #a4aeb4;
+}
+
+.field input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #a4aeb4;
+}
+
+.field input:focus {
+  border-color: #2696e8;
+}
+
+.row {
+  margin-top: 15px;
+}
+
+.policy {
+  margin-top: 50px;
+}
+
+.expand,
+.p-text {
+  margin-top: 8px;
+}
+
+.number {
+  position: absolute;
+  left: 360px;
+  margin-top: -19px;
+}
+
+.line {
+  outline: 0;
+  border-width: 0 0 2px;
+  width: 562px;
+}
+
+.sline {
+  width: 240px;
+}
+
+.grey-color {
+  color: #a4aeb4;
+}
+
+.blue-color {
+  color: #2696e8;
+}

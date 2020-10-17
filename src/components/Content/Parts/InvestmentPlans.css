@@ -1,0 +1,53 @@
+.grey-color {
+  color: #a4aeb4;
+}
+
+.blue-color {
+  color: #2696e8;
+}
+
+.ui.label {
+  color: black;
+}
+
+.line {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: #a4aeb4;
+  width: 271px;
+  border-color: #a4aeb4;
+}
+
+input:focus {
+  border-color: #2696e8 !important;
+}
+
+.btn-yes,
+.btn-no {
+  width: 90px;
+  height: 30px;
+  background: #ffffff;
+  border: 2px solid #d5d9dc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn-no {
+  margin-left: 10px;
+}
+
+.btn-yes:hover,
+.btn-no:hover {
+  border-color: #2696e8;
+  color: #2696e8;
+}
+
+.question {
+  margin-top: 50px;
+}
+
+.from,
+.to {
+  margin-top: 15px;
+}

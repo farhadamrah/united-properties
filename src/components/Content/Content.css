@@ -1,0 +1,49 @@
+.content {
+  width: 64.2%;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.content__container {
+  padding: 5vh 10%;
+  height: 100%;
+  position: relative;
+  width: 750px;
+}
+
+.content__header {
+  margin-bottom: 10%;
+}
+
+.main__header {
+  margin-bottom: 5%;
+}
+
+.main__content {
+  margin-top: 30px;
+}
+
+.control-buttons {
+  position: absolute;
+  bottom: 10px;
+  display: inline-block;
+}
+
+.span__help {
+  margin-left: 290px;
+}
+
+.skip,
+.next {
+  height: 40px;
+  width: 150px;
+  margin-left: 5px !important;
+}
+
+.skip {
+  margin-left: 150px !important;
+}
+
+.description {
+  margin-top: 10px;
+}
