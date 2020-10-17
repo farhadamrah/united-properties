@@ -5,7 +5,7 @@ import Menu from '../Menu/Menu';
 import './App.css'
 
 const App = () => {
-    const [currentStep, setcurrentStep] = useState(2);
+    const [currentStep, setcurrentStep] = useState(0);
     const { heading, description, mainPart, quote } = data[currentStep];
 
 
