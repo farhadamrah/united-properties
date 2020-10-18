@@ -8,6 +8,27 @@ const InvestmentPlans = () => {
     return (
         <div>
             <form>
+
+                <h3>Ho much are you planning to invest in this year?</h3>
+
+                <div className='inputs'>
+
+                    <div className='input-from'>
+                        <label className='grey' >From</label>
+                        <br />
+                        <label />$
+                    <input type='text' />
+                    </div>
+
+                    <div className='input-to'>
+                        <label className='grey' >To</label>
+                        <br />
+                        <label />$
+                    <input type='text'></input>
+                    </div>
+                </div>
+
+
                 <h3>Ho much are you planning to invest in this year?</h3>
                 <Range min={10000} max={1000000} marks={{ 0: { label: '$10.000' } }} />
 
@@ -17,9 +38,6 @@ const InvestmentPlans = () => {
                     <button class="btn-yes">Yes</button>
                     <button class="btn-no">No</button>
                 </div>
-
-
-
 
             </form>
         </div >

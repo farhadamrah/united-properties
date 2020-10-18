@@ -16,17 +16,6 @@ const InvestmentPreferences = () => {
                         ))}
                     </div>
 
-
-                    {/* <div className="ui four column grid">
-                        <div className="column">Single family</div>
-                        <div className="column">Residential multifamily</div>
-                        <div className="column">Commercial retail</div>
-                        <div className="column">Commercial industrial</div>
-                        <div className="column">Commercial hospitality</div>
-                        <div className="column">Commercial warehousing</div>
-                        <div className="column">Commercial office</div>
-                        <div className="column">Other</div>
-                    </div> */}
                 </div>
             </form>
         </div>

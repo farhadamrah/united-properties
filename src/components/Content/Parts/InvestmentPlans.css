@@ -31,6 +31,15 @@ input:focus {
   box-sizing: border-box;
   border-radius: 4px;
   margin-top: 10px;
+  outline: none;
+}
+
+.btn-yes:active,
+.btn-no:active {
+  background-color: #2696e8;
+  color: white !important;
+  border-radius: 6px !important;
+  box-shadow: 0px 0px 10px rgba(53, 160, 238, 0.4);
 }
 
 .btn-no {
@@ -47,7 +56,27 @@ input:focus {
   margin-top: 50px;
 }
 
-.from,
-.to {
-  margin-top: 15px;
+.inputs {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.inputs input {
+  border-width: 0 0 2px;
+  border-color: #a4aeb4;
+  outline: none;
+}
+
+.inputs input:focus {
+  border-color: #2696e8;
+}
+
+.input-to {
+  position: absolute;
+  left: 45%;
+  top: 42%;
+}
+
+.grey {
+  color: #a4aeb4;
 }

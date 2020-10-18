@@ -22,8 +22,8 @@ const Content = ({ step, handlePreviousButtonClick, handleNextButtonClick, handl
 
                 <div className='control-buttons'>
                     <a href='#' onClick={handlePreviousButtonClick} className='control__buttons--previous blue-color'>Back to the previous step</a>
-                    <button onClick={handleNextButtonClick} className='ui button skip'>Skip</button>
-                    <button onClick={step < 3 ? handleNextButtonClick : handleFinishButtonClick} className='ui primary button next'>{step < 3 ? 'Next' : 'Finish'}</button>
+                    <button onClick={handleNextButtonClick} className='ui button skip'>Skip for now</button>
+                    <button onClick={step < 3 ? handleNextButtonClick : handleFinishButtonClick} className='ui primary button next'>{step < 3 ? 'Next step' : 'Finish'}</button>
                 </div>
             </div>
         </div >
